@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        #test {
-            color: red;
-        }
-    </style>
-</head>
-
-<body>
-    <div id="test">
-        Git is a distributed version control system.
-        Git is free software distributed under the GPL.
-        Git is a distributed version control system.
-        Git is free software distributed under the GPL.
-    </div>
-    <!-- <div style="border: 1px solid black;">
+<div style="border: 1px solid black;">
         <h3 style="color: red;">版本回退</h3>
         <h4>git log 显示最近到最远的提交日志</h4>
         <h4>cat "filename" 查看指定文件的内容</h4>
@@ -32,7 +11,4 @@
     </p>
     <p>
         $ git reset --hard "xxx" 网上寻找回退版本前的该版本的版本号
-    </p> -->
-</body>
-
-</html>
+    </p>
