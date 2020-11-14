@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #repository {
+            border: 1px black solid;
+        }
+
+        h5 {
+            color: blueviolet;
+        }
+    </style>
 </head>
 
 <body>
@@ -31,6 +40,24 @@
         一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。</p>
     <h4>git remote add origin git@server-name:path/repo-name.git； 关联一个远程库</h4>
     <h4>git push -u origin master 关联后,第一次推送master分支的所有内容</h4>
+    <div id="repository">
+        <h4 style="color: red;">建立新仓库 并且获取联系</h4>
+        <h5>…or create a new repository on the command line</h5>
+        <p>
+            git init
+            git add README.md
+            git commit -m "first commit"
+            git branch -M main
+            git remote add origin https://github.com/liangwangshou/ahshjhkj.git
+            git push -u origin main
+        </p>
+        <h5>
+            …or push an existing repository from the command line
+        </h5>
+        <p>git remote add origin https://github.com/liangwangshou/ahshjhkj.git
+            git branch -M main
+            git push -u origin main</p>
+    </div>
 
 
 </body>
