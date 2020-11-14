@@ -12,3 +12,17 @@
     <p>
         $ git reset --hard "xxx" 网上寻找回退版本前的该版本的版本号
     </p>
+     <h4>git status 查看文件的状态 包括工作区，版本库中stage暂存区和提交分支的时候文件的不同情况</h4>
+    <h4>git checkout -- readme.txt 把readme.txt文件在工作区的修改全部撤销</h4>
+    <p>命令git checkout -- readme.txt意思就是，把readme.txt文件在工作区的修改全部撤销，这里有两种情况：
+
+        一种是readme.txt自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；
+
+        一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。</p>
+    <p>
+        要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git；
+
+        关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
+
+        此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
+    </p>
